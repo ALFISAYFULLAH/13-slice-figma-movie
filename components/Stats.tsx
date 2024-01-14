@@ -9,8 +9,8 @@ export default function Stats() {
                 {featureList.map(({ image, title, desc }, index) => (
                     <div className="bg-neutral-800 rounded-xl p-6" key={index}>
                         <Image className="mx-auto md:mx-0 mb-4" src={image} alt="" width={50} height={50} />
-                        <h1 className="text-2xl pb-2 text-center lg:text-start">{title}</h1>
-                        <p className="text-neutral-200 text-sm text-center lg:text-start">{desc}</p>
+                        <h1 className="text-2xl pb-2 text-center md:text-start">{title}</h1>
+                        <p className="text-neutral-200 text-sm text-center md:text-start">{desc}</p>
                     </div>
                 ))}
             </div>
