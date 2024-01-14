@@ -48,7 +48,7 @@ export const recomendationList: { image: string; title: string; genre: string; r
     },
 ];
 
-export const priceList = [
+export const priceList: { title: string; price: number; list: any }[] = [
     {
         title: "basic",
         price: 120000,
